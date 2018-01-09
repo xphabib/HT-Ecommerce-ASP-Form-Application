@@ -1,0 +1,42 @@
+﻿
+.product
+{
+    width:220px;
+    height:400px;
+    overflow:hidden;
+    border:thin solid yellow;
+    float:left;
+    margin:15px;
+    position:relative;
+}
+
+.product img{
+    width:inherit;
+}
+
+.product h1{
+    background-color:rgba(0, 0, 0, 0.85);
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.product span{
+    display:block;
+    padding:3px;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+.product div{
+    background-color:rgba(0, 0, 0, 0.20);
+    position:absolute;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    padding:10px;
+}
+
+.cross{
+    text-decoration:line-through;
+    color:red;
+}

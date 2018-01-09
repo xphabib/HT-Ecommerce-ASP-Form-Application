@@ -1,0 +1,55 @@
+﻿*{
+    padding:0px;
+    margin:0px auto; 
+}
+
+body {
+    background-color:rgba(69, 59, 59, 0.90);
+}
+
+
+.header
+{
+    height:100px;
+    background-color:rgba(255, 0, 0, 0.90);
+    border-bottom:green 1px outset;
+}
+
+.content{
+    height:auto;
+    overflow:hidden;
+    width:1160px;
+    text-align:left;
+}
+
+table{
+    min-width:800px;
+    float:left;
+}
+
+.main{
+    background-color:white;
+    height:auto;
+    overflow:hidden;
+    width:1200px;
+    border:thin solid silver;
+    padding:20px;
+}
+
+.menu{
+    height:40px;
+    text-align:right;
+    width:1160px;
+    border-bottom:thin black dashed;
+}
+
+.footer
+{
+    height:60px;
+    background-color:rgba(255, 0, 0, 0.90);
+    border-top:green 1px inset;
+    position:fixed;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
